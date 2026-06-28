@@ -32,7 +32,7 @@ include_directories(include/public)
 
 pkg_check_modules(GLIB2 REQUIRED glib-2.0)
 include_directories(${GLIB2_INCLUDE_DIRS})
-webos_add_compiler_flags(ALL -Wall -D__STRICT_ANSI__ ${GLIB2_CFLAGS_OTHER} -pthread)
+webos_add_compiler_flags(ALL -Wall ${GLIB2_CFLAGS_OTHER} -pthread)
 
 set(WEBOS_USE_WERROR FALSE CACHE BOOL "Set to TRUE to enable -Werror")
 if(WEBOS_USE_WERROR)
