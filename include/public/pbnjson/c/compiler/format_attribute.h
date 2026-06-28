@@ -15,7 +15,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 #ifndef FORMAT_ATTRIBUTE_H_
-#define FORMAT_ATTIRBUTE_H_
+#define FORMAT_ATTRIBUTE_H_
 
 #if __GNUC__
 #include "gcc/format_attribute.h"
